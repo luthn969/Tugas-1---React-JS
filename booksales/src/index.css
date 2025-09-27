@@ -1,0 +1,32 @@
+:root {
+  --brand: #0d6efd;
+}
+
+body {
+  padding-top: 70px;
+}
+
+.hero {
+  background: linear-gradient(90deg, rgba(13, 110, 253, 0.08), rgba(13, 110, 253, 0.02));
+  border-radius: 12px;
+  padding: 48px;
+}
+
+.team-card img {
+  height: 220px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+footer {
+  padding: 24px 0;
+  background: #f8f9fa;
+  margin-top: 48px;
+}
+
+.contact-card {
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+}
